@@ -1,0 +1,73 @@
+:root{
+  --loading-grey: #ededed;
+}
+
+.skeletonmain{
+  background-color: #f6f6f6;
+  font-family: Helvetica;
+  font-size: 15px;
+  display: grid;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  min-height: 100vh;
+}
+.card{
+  width: 100%;
+  /* max-width: 260px; */
+  background-color: #fff;
+  border-radius: 6px;
+  /* overflow: hidden; */
+  /* padding: 8px; */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, .12);
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 8px;
+
+  /* margin: 1px; */
+  border-radius: 8px;
+}
+.image{
+  height: 200px;
+}
+.image img{
+  display: block;
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+.content{
+  padding: 2rem 1.8rem;
+}
+h4{
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+.loading .image, .loading h4, .loading .description{
+  background-color: var(--loading-grey);
+  background: linear-gradient(
+      100deg,
+      rgba(225, 225 , 225 , 0) 40%,
+      rgba(225, 225, 225 , .5) 50%,
+      rgba(225, 225, 225 , 0) 60%
+  ) var(--loading-grey);
+  background-size: 200% 100%;
+  background-position: 180%;
+  animation: 1s loading ease-in-out infinite;
+}
+@keyframes loading {
+  to {
+      background-position-x: -20%;
+  }
+}
+.loading h4{
+  min-height: 1.6rem;
+  border-radius: 4px;
+  animation-delay: .05s;
+}
+.loading .description{
+  min-height: 4rem;
+  border-radius: 4px;
+  animation-delay: .06s;
+}

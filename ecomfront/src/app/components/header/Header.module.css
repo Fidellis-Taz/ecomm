@@ -1,0 +1,9 @@
+.search_grid {
+    /* margin-top: 80px; */
+    /* padding: 8px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 8px; */
+    left:0;
+    z-index: 0;
+  }

@@ -1,0 +1,33 @@
+._1sHuca {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+._1sHucd {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+._1sHuca ._3uTeW4 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+._1sHuca .CqJpD_ {
+    color: #878787;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 580px) {
+    ._1sHuca ._3uTeW4 {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 20px 0 10px;
+    }
+    ._1sHuca .CqJpD_ {
+        color: #878787;
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+}

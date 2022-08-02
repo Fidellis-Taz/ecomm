@@ -1,0 +1,125 @@
+.section145 {
+    padding: 47px 0 0;
+    width: 100%;
+    display: block;
+}
+.main-title-tt {
+    margin-bottom: 27px;
+    display: flex;
+    align-items: flex-end;
+}
+.main-title-left {
+    margin-right: auto;
+}
+.main-title-left span {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #f55d2c;
+    margin-bottom: 10px;
+    display: block;
+}
+.main-title-left h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2b2f4c;
+    margin-top: 0;
+    display: block;
+}
+.best-offer-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+
+.cat-home-wrap {
+    margin-bottom: 40px;
+}
+
+.cat-home-wrap .cat-title{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cat-card .cat-title{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.cat-card .cat-title:hover{
+    color: green;
+}
+.cat-card-wrap .img_ui{
+    /* height: 150px !important; */
+    padding:1rem;
+}
+
+.cat-home-wrap img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.cat-home-wrap .cat-right .cat-card-wrap {
+    padding: 0;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+
+.cat-home-wrap .cat-left {
+    padding-right:0;
+}
+.cat-home-wrap .cat-left .cat-card-wrap {
+    padding: 0;
+    padding-bottom: 15px;
+    display: block;
+}
+.cat-home-wrap .cat-right .cat-card{
+    border: 1px solid #eeeeee;
+    text-align: center;
+    padding: 5px;
+}
+/* 
+.left-vk .img-src{
+    padding: 10px;
+} */
+._sdimg{
+    height: 480px !important;
+}
+.left-vk .cat-card ._23sdd{
+    text-align: center;
+    padding: 9px;
+}
+.cat-home-wrap .cat-left .cat-card{
+    text-align: center;
+    padding: 9px;
+}
+
+
+@media (max-width:480px) { 
+    .cat-home-wrap .cat-left {
+        padding-right: 15px;
+    }
+
+    .cat-home-wrap .cat-right .cat-card-wrap {
+        padding-right: 15px;
+    }
+
+}
+
+
+.cat-home-wrap-inline .cat-card-wrap {
+    padding-bottom: 15px;
+}
+
+.cat-home-wrap-inline .cat-card {
+    text-align: center;
+    border: 1px solid #eeeeee;
+    /* padding: 20px 0px 20px 0px; */
+}
+.cat-home-wrap-inline .cat-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 

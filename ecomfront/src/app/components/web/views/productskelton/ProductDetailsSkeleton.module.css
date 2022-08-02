@@ -1,0 +1,218 @@
+body {
+  background: #cccccc;
+}
+
+.product_skeleton {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product_skeleton .product_source {
+  width: 400px;
+  display: -webkit-inline-box;
+  position: relative;
+}
+
+.product_skeleton .product_detail {
+  width: 400px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 20px;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product_skeleton .line_breadcrumb {
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product_skeleton .line-product-title {
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.product_skeleton .line_product_cost {
+  width: 150px !important;
+  padding-top: 50px;
+}
+
+.product_skeleton .pulse {
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, right top, left top, from(#efefef), color-stop(50%, #fcfcfc), to(#efefef));
+  background: linear-gradient(-90deg, #efefef 0%, #fcfcfc 50%, #efefef 100%);
+  background-size: 400% 400%;
+  -webkit-animation: pulse 1.2s ease-in-out infinite;
+          animation: pulse 1.2s ease-in-out infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.product_skeleton .lines {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product_skeleton .lines .line {
+  margin-top: 10px;
+}
+
+.product_skeleton .lines .line,
+.product_skeleton .lines .thumb {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 1rem;
+}
+
+.product_skeleton .lines .thumb {
+  padding-top: 100%;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f2f5f7;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  max-width: 100%;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.card_img {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.card_img img {
+  position: absolute;
+  width: 100%;
+}
+
+.card_body {
+  padding: 1.5rem;
+}
+
+.card_title {
+  font-size: 1.25rem;
+  line-height: 1.33;
+  font-weight: 700;
+}
+
+.card_title.skeleton {
+  min-height: 28px;
+  border-radius: 4px;
+}
+
+.card_intro {
+  margin-top: .75rem;
+  line-height: 1.5;
+}
+
+.card_intro.skeleton {
+  min-height: 72px;
+  border-radius: 4px;
+}
+
+.skeleton {
+  background-color: #e2e5e7;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-size: 40px 100%;
+  background-repeat: no-repeat;
+  background-position: left -40px top 0;
+  -webkit-animation: shine 1s ease infinite;
+          animation: shine 1s ease infinite;
+}
+
+@-webkit-keyframes shine {
+  to {
+    background-position: right -40px top 0;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: right -40px top 0;
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=ProductDetailsSkeleton.module.css.map */

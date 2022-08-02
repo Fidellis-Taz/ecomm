@@ -1,0 +1,18 @@
+.privacy-policy{
+    padding-top: 5rem;
+}
+.about-title {
+    font-size: 48px;
+    color: #d1d1d1;
+    display: block;
+    line-height: 1.1;
+    margin-bottom: 38px;
+    padding-top: 7rem;
+}
+.about-sub-title {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+p ul li{
+    list-style: disc;
+}

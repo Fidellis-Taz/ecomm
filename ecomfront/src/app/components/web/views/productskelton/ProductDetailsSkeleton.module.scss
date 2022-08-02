@@ -1,0 +1,184 @@
+body {
+  background: #cccccc;
+}
+
+.product_skeleton {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  .product_source {
+    width: 400px;
+    display: -webkit-inline-box;
+    position: relative;
+  }
+  .product_detail {
+    width: 400px;
+    display: inline-flex;
+    padding-left: 20px;
+    position: relative;
+    flex-direction: column;
+  }
+  .line_breadcrumb {
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .line-product-title {
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  .line_product_cost {
+    width: 150px !important;
+    padding-top: 50px;
+  }
+  .pulse {
+    $from: #f5f5f5;
+    $to: scale-color($from, $lightness: -10%);
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      -90deg,
+      #efefef 0%,
+      #fcfcfc 50%,
+      #efefef 100%
+    );
+    background-size: 400% 400%;
+    animation: pulse 1.2s ease-in-out infinite;
+    @keyframes pulse {
+      0% {
+        background-position: 0% 0%;
+      }
+      100% {
+        background-position: -135% 0%;
+      }
+    }
+  }
+
+  .lines {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    .line {
+      margin-top: 10px;
+    }
+    .line,
+    .thumb {
+      background-color: #f5f5f5;
+      width: 100%;
+      height: 1rem;
+    }
+
+    .thumb {
+      padding-top: 100%;
+    }
+  }
+}
+
+
+
+
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #f2f5f7;
+}
+
+// THE CARD 
+.card {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 300px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	max-width: 100%;
+	background-color: #FFF;
+	box-shadow: 0 5px 10px 0 rgba(#000, .15);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 1rem;
+}
+
+.card_img {
+	padding-bottom: 56.25%;
+	position: relative;
+	img {
+		position: absolute;
+		width: 100%;
+	}
+}
+
+.card_body {
+	padding: 1.5rem;
+}
+
+.card_title {
+	font-size: 1.25rem;
+	line-height: 1.33;
+	font-weight: 700;
+	&.skeleton { // NOTICE THIS
+		min-height: 28px;
+		border-radius: 4px;
+	}
+}
+
+.card_intro {
+	margin-top: .75rem;
+	line-height: 1.5;
+	&.skeleton { // NOTICE THIS
+		min-height: 72px;
+		border-radius: 4px;
+	}
+}
+
+// THE LOADING EFFECT
+.skeleton {
+	background-color: #e2e5e7;
+	// The shine that's going to move across the skeleton:
+	background-image:			
+			linear-gradient(
+				90deg, 
+				rgba(#fff, 0), 
+				rgba(#fff, 0.5),
+				rgba(#fff, 0)
+			);
+	background-size: 40px 100%; // width of the shine
+	background-repeat: no-repeat; // No need to repeat the shine effect
+	background-position: left -40px top 0; // Place shine on the left side, with offset on the left based on the width of the shine - see background-size
+	animation: shine 1s ease infinite; // increase animation time to see effect in 'slow-mo'
+}
+
+@keyframes shine {
+	to {
+		// Move shine from left to right, with offset on the right based on the width of the shine - see background-size
+		background-position: right -40px top 0;
+	}
+}
+
+
+// Codepen spesific styling - only to center the elements in the pen preview and viewport 
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+// End Codepen spesific styling

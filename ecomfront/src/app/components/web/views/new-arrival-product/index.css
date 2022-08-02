@@ -1,0 +1,165 @@
+.salon-header{
+    background-color: #0C3049 !important;
+}
+.parlour_bk{
+    background: rgb(156 243 105 / 51%) !important;
+    border-radius: 20px !important;
+   
+}
+.salonchainbg {
+    background-image: url("/img/white_patch.webp");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    margin-right: -5px;
+    padding-top: 45px;
+}
+.details_sd .address-salon{
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgba(0, 0, 0, 0.6);
+}
+.section__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.section-divider {
+    display: inline-block;
+    position: relative;
+    height: 5px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #51be78;
+    width: 90px;
+    overflow: hidden;
+}
+.section-divider:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1.1px;
+    height: 7px;
+    width: 8px;
+    background-color: #fff;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: dot-move;
+    animation-name: dot-move;
+}
+.rating{
+    color: rgba(3,1,1,.44);
+    text-transform: uppercase;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+}
+.review_card-sd{
+    background: #f55d2c none repeat scroll 0 0 !important;
+    font-weight: 500;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    padding: 1px 10px 0px;
+    border-radius: 3px;
+    line-height: 15px;
+    margin-bottom: 0px;
+}
+.review-value{
+    font-size: 10px;
+    /* margin-top: -8px; */
+}
+.price-for-cate-sdad{
+    padding-top: 8px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-size: 15px;
+}
+.salon-details-page .address{
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    color: rgba(0, 0, 0, 0.6);
+}
+.details-img-2{
+    text-align: center;
+    /* height: 195px; */
+}
+.detail-img-page{
+    border-radius: 6px;
+    height: 195px;
+    width: 100%;
+}
+.detail-img-page img{
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.d4-parlour_bk{
+    margin-top: 5rem;
+    border-radius: 5px !important;
+}
+.d4-parlour_bk-select-date{
+    margin-top: 1rem;
+    border-radius: 5px !important;
+}
+.salon-cart-sd{
+    background-color: #00f4ff21;
+}
+.service_paragraph_sd{
+    font-family: "Lato", "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.salon_discount_per{
+    border: 1px solid red;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 16px;
+    color: rgb(128, 130, 133);
+}
+.salon_home_title {
+    color: rgb(44, 44, 44);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 1px;
+}
+.salon_thumbnail_22{
+    width: 100%;
+    /* width: 134px; */
+    height: 119px;
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.course-area{
+    background-image: url(/assets/images/appointment-bg.png);
+}
+
+.rating_value_sdas{
+    margin-left: -4px !important;
+    margin-top: 2px !important;
+    font-size: 15px !important; 
+}
+
+@media (max-width: 575px){
+.section__title {
+    font-size: 30px;
+}
+}
