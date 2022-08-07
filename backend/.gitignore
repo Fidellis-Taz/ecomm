@@ -46,5 +46,5 @@ dist/**/*
 .vscode
 
 keys
-serviceAccount.json
+
 
